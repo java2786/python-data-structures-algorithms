@@ -1,0 +1,13 @@
+book -> author, price, title
+
+store 5 books
+
+print each book details
+
+
+class Book:
+    author = None
+    price = None
+    title = None
+
+    
