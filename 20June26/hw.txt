@@ -1,0 +1,20 @@
+department has 5 employees
+
+employee has name, salary and experience in year
+
+1. distribute 5% bonus of salary to each employee
+
+
+
+2. distribute 5% bonus of salary to employees who are 5 years or more experienced
+3. distribute 5% bonus of salary to employees who are 5 years or more experienced else 2% bonus
+
+
+=================
+
+
+School / Univercity
+
+5 students has scores of 5 subjects
+
+find the topper
