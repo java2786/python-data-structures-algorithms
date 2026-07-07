@@ -1,6 +1,7 @@
 String methods
-Reverse String
+- Reverse String
 search and replace char in string -> Hello -> l, m
+    Hello -> l, x -> Hexxo
 search and remove char in string
 remove consecutive chars
 Insert * b/w identical chars
