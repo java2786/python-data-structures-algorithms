@@ -1,0 +1,17 @@
+class Student:
+    name = "ramesh"
+    age = 32
+
+    def work():
+        ....
+
+std = Student()
+
+std.name
+std.age
+std.work()
+
+
+nums = [1,2,3]
+
+nums.append(4)
