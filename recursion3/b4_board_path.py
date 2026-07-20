@@ -18,7 +18,7 @@ def solution(row, col, cr, cc, path):
     solution(row, col, cr+1, cc, path+"D")
 
 
-board_row = 2
-board_col = 2
+board_row = 4
+board_col = 3
 
 solution(board_row, board_col, 0, 0, "")

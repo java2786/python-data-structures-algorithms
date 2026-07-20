@@ -8,4 +8,9 @@ remove consecutive chars
 Insert * b/w identical chars
 Move all 'x' to the end
 isPalindrome
+
 search and find given char, return first occurence only
+Hello, e -> 1
+Hello, l -> 2
+Hello, m -> -1
+
