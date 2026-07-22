@@ -1,5 +1,5 @@
 def find_sum(list, sum, count, index, next_index):
-    print(f"count: {count}, index: {index}, NI: {next_index}")
+    # print(f"count: {count}, index: {index}, NI: {next_index}")
     # base case - index
     if(index==len(list)-1):
         print(f"Index reached to end: {index} - return")
@@ -18,5 +18,5 @@ def find_sum(list, sum, count, index, next_index):
     # recursion call / small problem
     find_sum(list, sum, count, index, next_index+1)
 
-list = [1,2,3,4,2,0,5,-1]    
-find_sum(list, 4, 0, 0, 1)
+list = [10,25,15,20]    
+find_sum(list, 45, 0, 0, 1)
