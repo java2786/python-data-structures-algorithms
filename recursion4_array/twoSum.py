@@ -1,5 +1,8 @@
 def twoSum(nums, target, index, result ):
 
+    if(target==0 and len(result)==2):
+        return result
+
     # out of range
     if(index == len(nums)):
         return None
@@ -11,8 +14,6 @@ def twoSum(nums, target, index, result ):
     if(target<0):
         return None
 
-    if(target==0 and len(result)==2):
-        return result
 
 
     answer = twoSum(nums, target - nums[index], index+1, result+[nums[index]])
@@ -23,7 +24,7 @@ def twoSum(nums, target, index, result ):
     else:
         return twoSum(nums, target, index+1, result)
 
-list = [7,3,5,6,8]
+list = [7,3,6,5, 8]
 target = 15
 resultList = twoSum(list, target, 0, [])
 print(resultList)
